@@ -1,0 +1,349 @@
+body{
+    font-size: 16px;
+    line-height: 28px;
+    font-family:'Manrope', sans-serif;
+    font-weight: normal;
+    color: #9898A7;
+}
+h1,h2,h3,h4,h5,h5{
+    color: #060640;
+}
+h1{
+    font-size: 45px;
+    line-height: 55px ;
+    font-weight: 700;
+}
+h2{
+    font-size: 24px;
+    line-height: 34px;
+}
+h3{
+    font-size: 20px;
+    line-height: 28px;
+}
+a{
+    color:#828297;
+    text-decoration:none;
+}
+p{
+    color: #9898A7;
+}
+ul, ol{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+span{
+    position: relative;
+}
+.sky-blue, .banners .top-nav-bar .nav-link:hover,.banners .top-nav-bar .nav-link.active{
+    color:#00E5CC;
+}
+.banners{
+    background:url(../images/Header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.top-nav-bar{
+    border-radius: 8px;
+    background: white;
+    padding: 22px;
+}
+.banners .navbar-brand{
+    color:#060640;
+    font-size: 30px;
+    font-weight: 700;
+}
+.banners .top-nav-bar .nav-item{
+    font-size: 14px;
+    font-family: 500;
+    color:#828297;
+}
+.black{
+    color: black;
+}
+.text-size{
+    font-size: 14px;
+    font-weight: 500;
+}
+.blue-btn,.blue-btn:hover{
+    background-color: #060640;
+    color: white;
+    line-height: 15px;
+    font-weight: 500;
+    padding: 20px 30px;
+}
+/* -----top banner section starts from here----- */
+.banners .top-banners{
+    margin-top: 30px;
+    
+}
+.top-banners span img{
+    position: absolute;
+    left: 107px;
+    top: 19px;
+     
+}
+.banners .top-banners h1{
+    padding-top:20px ;
+    margin-top: 50px;
+    font-size: 50px;
+    line-height: 65px;
+    font-weight: bold;
+    margin-bottom: 20px ;
+}
+.banner-btns{
+    display: flex;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.give-space{
+    margin-left: 10px;
+}
+/* .rating{
+    align-items: center;
+} */
+ .testimonials{
+    margin-top: 50px;
+    background: white;
+    border-radius: 8px;
+    padding: 23px 21px;
+    
+}
+.quote{
+    display: flex;
+    justify-content: space-between;
+}
+/--section how it works start from here-----/
+.p-100{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.span{
+    position: relative;
+}
+.how-it-works span img {
+    position: absolute;
+    left: 29px;
+    top: -1px;
+}
+
+.section-text{
+    margin-bottom: 70px;
+}
+.how-it-works .card-pading{
+ padding: 20px 30px;
+ margin-bottom: 0;
+}
+
+ .how-it-works .card-icon{
+    padding: 15px;
+    background: #ECF9FF;
+    border-radius:8px;
+     width: 75px ;
+    height: 75px; 
+ }
+ 
+@media (max-width:768px) {
+    .how-it-works .card{
+        padding-bottom: 20px;
+    }
+    
+}
+/* ---ABOUT US CSS STARTS HERE---- */
+span{
+    position: relative;
+}
+.about-us span img{
+    position: absolute;
+    top: -6px;
+    left: 64px;
+}
+
+.about-us .img-icon{
+    background: #ECF9FF;
+    padding: 15px;
+    border-radius: 8px;
+    margin-right: 10px;
+   height: 60px;
+   width:60PX;
+
+}
+/* SECTION POPLULAR PAKAGES CSS STARST FROM HERE */
+span{
+    position: relative;
+}
+.pakages span img{
+    position: absolute;
+    top: -2px;
+    left: 61px;
+}
+
+.pakages{
+    background:url(../images/Header.jpg);
+    background-repeat: no-repeat;
+    background-position: cover;
+    padding-top: 100px;
+    padding-bottom: 110px;
+}
+.pakages .card{
+     margin-top: 50px;
+    padding: 20px 30px;
+    background: #ECF9FF;
+    border-color: white;
+    cursor: pointer;
+}
+.pakages .slider-icons{
+    background-color: white;
+    padding: 10px;
+    border-radius: 2px;
+
+
+}
+.pakages .slider-icons a{
+    padding:9px 13px; 
+}
+.pakages .slider-icons a:hover{
+    background-color: #00E5CC;
+    color: white;
+    border-radius: 8px;
+}
+
+.pakages h3{
+margin-top: 20px;
+}
+
+.pakages .card:hover{
+   background-color: white;
+}
+/* ---------------- */
+/* ---------SECTION MAP CSS------------- */
+span{
+    position: relative;
+}
+.map span img{
+    position: absolute;
+    top: -6px;
+    left: 32px;
+}
+.map{
+    margin-top: 100px;
+    margin-bottom: 110px;
+}
+.map .subscribe-box{
+    background:  #ECF9FF;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 8px;
+}
+
+.map .subscriber-position{
+    position: relative;
+}
+.map .subscriber-position img{
+    position: absolute;
+    top: -98px;
+    right: 25px;
+    height: 321px;
+}
+.navbar-toggler-icon{
+    background-image: url(../images/togle.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+@media screen and (max-width:1199px) {
+    .map .subscriber-position img{
+        display: none;
+    }
+    .form-control{
+        width: 80%;
+    }
+}
+/* .top-banners .bg-immg{
+    position: relative;
+} */
+span{
+    position: relative;
+}
+.subscribe span img{
+    position: absolute;
+    top: -6px;
+    left: 4px;
+}
+input#email {
+    border: none;
+    outline: none;
+}
+input#email:focus {
+    box-shadow: none;
+}
+/* ---------------- */
+/* -----footer css starts from here */
+/* footter strt here*/
+
+footer {
+    background-color: #060640;
+    padding-top: 80px;
+    padding-bottom: 50px;
+  }
+footer .footer-row{
+    justify-content: space-between;
+  }
+  
+  footer h5 {
+    font-size: 18px;
+    color: white;
+  }
+  
+  footer li a {
+    font-size: 14px;
+    color: #828297;
+  
+  }
+  
+  footer .fa-brands {
+    background-color: #060640;
+    margin-left: 5px;
+    height: 30px;
+    width: 30px;
+    border: 1px solid;
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .footer-row  .fa-brands:hover{
+    border-color: #00E5CC;
+    color: #00E5CC;
+  }
+  
+  .footer-bottom {
+    background-color: #000020;
+    
+  }
+  .footer-bottom P{
+    color: white;
+  }
+  footer .footer-row .second-row{
+    margin-top: 25px;
+  }
+  
+  
+  .footer-bottom .footer-row{
+    justify-content: space-between;
+  }
+  
+  @media screen and (max-width:600px) {
+  footer .footer-row{
+      justify-content: unset;
+    }
+  .footer-bottom .footer-row{
+        margin-right: 10px;
+    }
+    
+  }
+  /* footter end here*/
